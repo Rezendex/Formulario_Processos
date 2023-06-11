@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+
+div{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+      }
+
+::placeholder{
+    font-style: italic;
+    font-size: 7px;
+    color:#fff;
+}
+form{
+    background-color: #F61507;
+    padding: 50px;
+    border-radius: 30px;
+
+}
+input{
+    background-color: #F61507;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
+
+label{
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3{
+    font-style: italic;
+    color: #fff;
+    text-decoration: underline;
+}
+img{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top:70px;
+    right:47px;
+ 
+ }
